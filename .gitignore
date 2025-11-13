@@ -1,0 +1,76 @@
+# --- Python básico ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales de ejecución
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+venv*/
+env*/
+
+# --- Dependencias / builds ---
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+develop-eggs/
+wheels/
+*.egg-info/
+*.egg
+
+# --- Herramientas de pruebas / calidad ---
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# --- IDEs ---
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# --- SO / basura general ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- Configuración local / secretos ---
+.env
+.env.*
+*.env
+*.local
+
+# --- Archivos de runtime del servidor ---
+logs/
+tmp/
+*.pid
+
+# --- Proyecto whisperlocal ---
+# (Opcional) Carpetas con audios grandes o salidas que no quieras versionar
+audios/
+audio/
+recordings/
+media/
+outputs/
+transcriptions/
