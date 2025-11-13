@@ -334,5 +334,6 @@ Si quieres usar Whisper con GPU (por ejemplo, una RTX):
 * `routes.py` — Rutas y endpoints de la API.
 * `GPU.md` — Guía para habilitar GPU/CUDA.
 
----#   w h i s p e r S e r v e r  
- 
+---
+ 
+ 
